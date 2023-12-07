@@ -1,26 +1,18 @@
 "use client";
 
 
-import React, { useEffect } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import Link from 'next/link';
 import { BsArrowRight, BsGithub, BsLinkedin, BsMedium } from'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
-import { useInView } from 'react-intersection-observer';
 import { useActiveSectionContext } from '@/context/active-section-context';
+import { useSectionInView } from '@/lib/hooks';
 
 export default function Intro() {
-  const { ref, inView } = useInView({
-    threshold: 0.5,
-  });
-  const { setActiveSection } = useActiveSectionContext();
-
-
-     useEffect(() => {
-      if (inView) {
-      setActiveSection("Home");
-  }}, [inView, setActiveSection]);
+  const { ref } = useSectionInView('Home', 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
 
   return (
@@ -73,7 +65,12 @@ export default function Intro() {
       }}
       >
         <Link href="#contact" className='group bg-gray-900 text-white px-7 py-3 flex items-center 
-        rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition'>
+        rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition'
+        onClick={() => {
+          setActiveSection('Contact');
+          setTimeOfLastClick(Date.now());
+        }}
+        >
           Contact me here <BsArrowRight className="group-hover:translate-x-2 transition opacity-70" />
         </Link>
 
