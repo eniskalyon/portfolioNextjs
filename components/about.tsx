@@ -20,32 +20,30 @@ export default function About() {
     id='about'
     >
     <SectionHeading>About Me</SectionHeading>
-    <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+    <p className='mb-3'>
+    I am a law graduate who found his true calling in programming. My educational journey took an exciting turn when I embarked on a {" "}
+    <span className="font-medium rounded-lg bg-amber-200 px-1 relative">Web Developer Associate's Degree</span> in Ankara. Although I had to relocate to the UK and leave the program midway, my passion for {" "}
+    <span className="font-medium">web development</span> did not wane. Over the last three years, I have been engaged in diverse web development projects in both Turkey and the UK, {" "}
+    <span className="italic">continuously expanding my expertise</span>.
+</p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+<p>
+    Recently, I have taken a significant step in my career by enrolling in a {" "}
+    <span className="font-medium rounded-lg bg-amber-200 px-1 relative">Master's Degree Program in IT Systems and Management</span>. This program is enriching my understanding of {" "}
+    <span className="font-medium">full-stack development</span> and broadening my knowledge of IT systems. It's an academic pursuit that aligns perfectly with my passion.
+</p>
+
+<p>
+    My current tech stack includes {" "}
+    <span className="font-medium">JavaScript, React, React Native, and Supabase</span>, and I occasionally work with {" "}
+    <span className="font-medium">WordPress and PHP</span>. This blend of technologies enables me to build robust and efficient web applications.
+</p>
+
+<p>
+    <span className="italic">Outside of coding</span>, I have a penchant for exploring new languages, sampling various cuisines, and immersing myself in books that open new perspectives and {" "}
+    <span className="underline">challenge conventional thinking</span>. Each of these hobbies contributes to my broad worldview and creativity in problem-solving.
+</p>
+
       </motion.section>
   )
 }
