@@ -51,13 +51,13 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hi, I'm Enis:</span> a{" "}
-        <span className="font-bold rounded-lg bg-amber-200 px-1 relative">web developer</span> with{" "}
-        <span className="rounded-lg font-bold bg-amber-200 px-1 relative">3 years</span> of experience. I enjoy
+        <span className="font-bold rounded-lg bg-amber-200 dark:bg-amber-400 px-1 relative">web developer</span> with{" "}
+        <span className="rounded-lg font-bold bg-amber-200 dark:bg-amber-400 px-1 relative">3 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className=" rounded-lg font-medium bg-amber-200 px-1 relative">React, </span>
-        <span className=" rounded-lg font-medium bg-amber-200 px-1 relative">TypeScript</span> {" and "}
-        <span className=" rounded-lg font-medium bg-amber-200 px-1 relative">Next.js</span>. <br />
-        <span className=''>I also have proven experience in <span className='rounded-lg font-medium bg-amber-200 px-1 relative'>PHP (Laravel, WordPress and MySQL)</span></span>
+        <span className=" rounded-lg font-medium bg-amber-200 dark:bg-amber-400 px-1 relative">React, </span>
+        <span className=" rounded-lg font-medium bg-amber-200 dark:bg-amber-400 px-1 relative">TypeScript</span> {" and "}
+        <span className=" rounded-lg font-medium bg-amber-200 dark:bg-amber-400 px-1 relative">Next.js</span>. <br />
+        <span className=''>I also have proven experience in <span className='rounded-lg font-medium bg-amber-200 dark:bg-amber-400 px-1 relative'>PHP (Laravel, WordPress and MySQL)</span></span>
       </motion.h1>
 
       <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium'
@@ -78,11 +78,11 @@ export default function Intro() {
         </Link>
 
         <a href="/CV.pdf" download className='group bg-white px-7 py-3 flex items-center 
-        rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack'>Download CV <HiDownload className='group-hover:translate-y-1 opacity-60 transition' /></a>
+        rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'>Download CV <HiDownload className='group-hover:translate-y-1 opacity-60 transition' /></a>
 
-        <a href="https://github.com" target="_blank" className='bg-white p-4 flex items-center gap-2 rounded-full text-gray-700 hover:text-gray-950 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack'><BsGithub /> GitHub</a>
+        <a href="https://github.com" target="_blank" className='bg-white p-4 flex items-center gap-2 rounded-full text-gray-700 hover:text-gray-950 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-gray-200'><BsGithub /> GitHub</a>
 
-        <a href="https://linkedin.com" target="_blank" className='bg-white p-4 flex items-center gap-2 rounded-full text-gray-700 hover:text-gray-950 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack'><BsLinkedin />LinkedIn</a>
+        <a href="https://linkedin.com" target="_blank" className='bg-white p-4 flex items-center gap-2 rounded-full text-gray-700 hover:text-gray-950 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-gray-200'><BsLinkedin />LinkedIn</a>
         {/* <a href="" className='bg-white p-4 flex items-center gap-2 rounded-full text-gray-700 text-[1.35rem]'><BsMedium />Medium</a> */}
 
       </motion.div>

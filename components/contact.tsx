@@ -17,13 +17,13 @@ export default function Contact() {
     transition={{ duration: 1 }}
     >
         <SectionHeading>Contact Me</SectionHeading>
-        <p className='text-gray-700 -mt-6'>Please contact me directly at <a href="mailto:eniskalyon@gmail.com" className='underline'>eniskalyon@gmail.com</a>{" "} or through this form.</p>
+        <p className='text-gray-700 -mt-6 dark:text-white/80'>Please contact me directly at <a href="mailto:eniskalyon@gmail.com" className='underline'>eniskalyon@gmail.com</a>{" "} or through this form.</p>
         <form action={async (formData) => {
             await sendEmail(formData);
 
-        }} className='mt-10 flex flex-col'>
-            <input name="senderEmail" className='h-14 px-4 rounded-lg border borderBlack' type="email" required maxLength={500} placeholder='Your email'/>
-            <textarea name="message" className='h-52 my-3 rounded-lg borderBlack p-4' required maxLength={5000} placeholder='Your message'/>
+        }} className='mt-10 flex flex-col dark:text-black'>
+            <input name="senderEmail" className='h-14 px-4 rounded-lg border borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none' type="email" required maxLength={500} placeholder='Your email'/>
+            <textarea name="message" className='h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 transition-all dark:outline-none' required maxLength={5000} placeholder='Your message'/>
             <SubmitBtn />
         </form>
     </motion.section>
