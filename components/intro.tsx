@@ -77,7 +77,7 @@ export default function Intro() {
           Contact me here <BsArrowRight className="group-hover:translate-x-2 transition opacity-70" />
         </Link>
 
-        <a href="/CV.pdf" download className='group bg-white px-7 py-3 flex items-center 
+        <a href="/Enis-Kalyon-CV.pdf" download className='group bg-white px-7 py-3 flex items-center 
         rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'>Download CV <HiDownload className='group-hover:translate-y-1 opacity-60 transition' /></a>
 
         <a href="https://github.com/eniskalyon" target="_blank" className='bg-white p-4 flex items-center gap-2 rounded-full text-gray-700 hover:text-gray-950 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-gray-200'><BsGithub /> GitHub</a>
