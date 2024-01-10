@@ -59,7 +59,7 @@ export const experiencesData = [
     date: "2021-2022",
   },
   {
-    title: "Bachelor's in Law",
+    title: "Bachelor of Law",
     location: "Gazi University, Turkey",
     description: "",
     icon: React.createElement(LuGraduationCap),
