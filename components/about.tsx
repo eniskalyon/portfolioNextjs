@@ -22,15 +22,15 @@ export default function About() {
     <SectionHeading>About Me</SectionHeading>
     <p className='mb-3'>
     I am a law graduate who found his true calling in programming. My educational journey took an exciting turn when I embarked on a{" "}
-    <span className="font-medium rounded-lg bg-amber-200 dark:bg-amber-400 px-1 relative">Web Developer Associate's Degree</span> in Ankara. Although I had to relocate to the UK and leave the program midway, my passion for{" "}
+    <span className="font-medium rounded-lg bg-amber-200 dark:bg-amber-400 px-1 relative">Web Developer Associate&apos;s Degree</span> in Ankara. Although I had to relocate to the UK and leave the program midway, my passion for{" "}
     <span className="font-medium">web development</span> did not wane. Over the last three years, I have been engaged in diverse web development projects in both Turkey and the UK,{" "}
     <span className="italic">continuously expanding my expertise</span>.
 </p>
 
 <p>
     Recently, I have taken a significant step in my career by enrolling in a{" "}
-    <span className="font-medium rounded-lg bg-amber-200 dark:bg-amber-400 px-1 relative">Master's Degree Program in IT Systems and Management</span>. This program is enriching my understanding of{" "}
-    <span className="font-medium">full-stack development</span> and broadening my knowledge of IT systems. It's an academic pursuit that aligns perfectly with my passion.
+    <span className="font-medium rounded-lg bg-amber-200 dark:bg-amber-400 px-1 relative">Master&apos;s Degree Program in IT Systems and Management</span>. This program is enriching my understanding of{" "}
+    <span className="font-medium">full-stack development</span> and broadening my knowledge of IT systems. It&apos;s an academic pursuit that aligns perfectly with my passion.
 </p>
 
 <p>
