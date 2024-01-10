@@ -82,7 +82,7 @@ export default function Intro() {
 
         <a href="https://github.com/eniskalyon" target="_blank" className='bg-white p-4 flex items-center gap-2 rounded-full text-gray-700 hover:text-gray-950 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-gray-200'><BsGithub /> GitHub</a>
 
-        <a href="https://uk.linkedin.com/in/eniskalyon" target="_blank" className='bg-white p-4 flex items-center gap-2 rounded-full text-gray-700 hover:text-gray-950 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-gray-200'><BsLinkedin />LinkedIn</a>
+        <a href="https://www.linkedin.com/in/eniskalyon/" target="_blank" className='bg-white p-4 flex items-center gap-2 rounded-full text-gray-700 hover:text-gray-950 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-gray-200'><BsLinkedin />LinkedIn</a>
         {/* <a href="" className='bg-white p-4 flex items-center gap-2 rounded-full text-gray-700 text-[1.35rem]'><BsMedium />Medium</a> */}
 
       </motion.div>

@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Full Stack Web Developer",
     location: "Amber Accident Claims",
     description:
-      "Developed the company's first modern website from scratch, using Next.js, Tailwind, React, and TypeScript. This initiative boosted the firm's online presence significantly, with the website appearing in the top 5 Google search results for relevant keywords. Implemented SEO strategies that resulted in a 60% increase in web traffic and a 40% increase in client inquiries within the first six months of launch.",
+      "Developed the company's first modern website, using Next.js, Tailwind, React, and TypeScript. This initiative boosted the firm's online presence significantly, with the website appearing in the top 5 Google search results for relevant keywords. Implemented SEO strategies that resulted in a 60% increase in web traffic and a 40% increase in client inquiries within the first six months of launch.",
     icon: React.createElement(FaCode),
     date: "2023",
   },
@@ -70,19 +70,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Amber Accident Claims",
-    description: "lorem ipsum dolor sit amet, consectetur adip eu fugiat null et",
-    tags: [],
-    imageUrl: aacImg
-  },
-  {
     title: "Marketstream",
     description:
       "Marketstream is a full-fledged frontend development project. This project features advanced UI components, seamless data synchronization, and an intuitive layout, ensuring a top-tier user experience.",
     tags: ["React", "Next.js", "SyncFusion", "TypeScript", "Tailwind"],
     imageUrl: marketstreamImg,
   },
-
+  {
+    title: "Amber Accident Claims",
+    description: "Developed the modern website of the Amber Accident Claims, West Midlands's leading accident claims management company. This initiative boosted the firm's online presence by 70%, with the website appearing in the top 5 Google search results for relevant keywords.",
+    tags: [],
+    imageUrl: aacImg
+  },
   {
     title: "Zanyaro",
     description:
@@ -104,23 +103,37 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
+  "HTML5",
+  "Javascript",
   "React",
+  "Typescript",
   "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
+  "jQuery",
+  "Git",
+  "Node",
   "Express",
-  "PostgreSQL",
+  "MySQL",
+  "MongoDB",
+  "PHP",
   "Python",
-  "Django",
+  "Supabase",
+  "AppWrite",
+  "WordPress Theme & Plugins",
+  "CSS3",
+  "Tailwind",
+  "Bootstrap",
+  "Sass",
   "Framer Motion",
+  "Jest",
+  "Cypress",
+  "REST API",
+  "GraphQL",
+  "SEO",
+  "Performance Optimization",
+  "WCAG Guidelines",
+  "Figma",
+  "Adobe Photoshop",
+  "Notion",
+  "Multilingual: English, Kurdish, Turkish, Arabic",
 ] as const;
