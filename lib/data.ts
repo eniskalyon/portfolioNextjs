@@ -75,12 +75,14 @@ export const projectsData = [
       "Marketstream is a full-fledged frontend development project. This project features advanced UI components, seamless data synchronization, and an intuitive layout, ensuring a top-tier user experience.",
     tags: ["React", "Next.js", "SyncFusion", "TypeScript", "Tailwind"],
     imageUrl: marketstreamImg,
+    url: "https://marketstream.vercel.app/"
   },
   {
     title: "Amber Accident Claims",
     description: "Developed the modern website of the Amber Accident Claims, West Midlands's leading accident claims management company. This initiative boosted the firm's online presence by 70%, with the website appearing in the top 5 Google search results for relevant keywords.",
     tags: [],
-    imageUrl: aacImg
+    imageUrl: aacImg,
+    url: "https://amber-sandy.vercel.app/"
   },
   {
     title: "Zanyaro",
@@ -88,6 +90,7 @@ export const projectsData = [
       "Zanyaro is a public web application designed to streamline programming-related inquiries. It harnesses the power of OpenAI's APIs, providing users with AI responses. What sets Zanyaro apart is its hard-coded prompting, ensuring that queries remain focused on programming.",
     tags: ["React", "Next.js", "Vercel", "OpenAI API"],
     imageUrl: zanyaroImg,
+    url: 'https://zanyaro.vercel.app/'
   },
   
   {
@@ -96,6 +99,7 @@ export const projectsData = [
       "Fictional University is a comprehensive full-stack CRUD application tailored for academic institutions. It integrates advanced functionalities like dynamic search capabilities, robust relational databases, and user-friendly interfaces.",
     tags: ["React", "WordPress", "PHP", "ACF", "Theme Development", "REST API", "MySQL"],
     imageUrl: universityImg,
+    url: 'https://kalyon.tech',
   },
   
 

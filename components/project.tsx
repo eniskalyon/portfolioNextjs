@@ -6,7 +6,7 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 
 type ProjectProps = (typeof projectsData)[number];
 
-export default function Project({ title, description, tags, imageUrl }: ProjectProps) {
+export default function Project({ title, description, tags, imageUrl, url }: ProjectProps) {
     const ref = useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -36,7 +36,7 @@ export default function Project({ title, description, tags, imageUrl }: ProjectP
                         ))}
                     </ul>
                 </div>
-                <a href="https://google.com">
+                <a href={url}>
                     <Image src={imageUrl} alt={title} quality={95} className='absolute hidden sm:block  top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-even:right-[initial] group-even:-left-40 transition
                      group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2
                      group-hover:scale-[1.04]
